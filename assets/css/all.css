@@ -1,0 +1,326 @@
+/* work-sans-regular - latin */
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/work-sans-v2-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Work Sans'), local('WorkSans-Regular'),
+       url('../fonts/work-sans-v2-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/work-sans-v2-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/work-sans-v2-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/work-sans-v2-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/work-sans-v2-latin-regular.svg#WorkSans') format('svg'); /* Legacy iOS */
+}
+.container{
+    max-width: 1360px;
+    width: 96%;
+    margin: 0 auto;
+}
+.container:before, .container:after {
+    content: " ";
+    display: table;
+}
+.container:after {
+    clear: both;
+}
+/* -----------------------------------------------------------
+Start
+----------------------------------------------------------- */
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+}
+body {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.37) url(../images/bc.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-bottom: 230px;
+    position: relative;
+}
+.ahmed {
+    margin-bottom: 509px !important;
+    display: block;
+}
+.preload * {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0
+}
+h1, h2, h3, h4, h5 ,h6{
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+/* -----------------------------------------------------------
+bc-cover
+----------------------------------------------------------- */
+.bc-cover {
+    background: rgba(0, 0, 0, 0.42);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+/* -----------------------------------------------------------
+Header
+----------------------------------------------------------- */
+
+header.header {
+    position: relative;
+    padding: 51px 0;
+}
+ul.mnue {
+    position: absolute;
+    right: 0;
+}
+logo.logo {
+    position: absolute;
+    left: 0;
+}
+logo.logo a {
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 15px;
+}
+ul.mnue li {
+    display: inline-block;
+    margin-left: 19px;
+}
+ul.mnue a {
+    color: #fff;
+    position: relative;
+}
+ul.mnue a.active::before {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #fff;
+    bottom: -12px;
+    right: calc(50% - 3px);
+}
+/* -----------------------------------------------------------
+Main
+----------------------------------------------------------- */
+main.main {
+    text-align: center;
+    margin-top: 55px;
+}
+main.main h1 {
+    font-size: 47px;
+    font-weight: 100;
+    margin-bottom: 50px;
+    text-transform: capitalize;
+}
+main.main h5 {
+    margin: 34px 0;
+}
+/* -------------------
+Counter
+------------------- */
+counter .box {
+    display: inline-block;
+    background: #fff;
+    margin: 20px 0;
+    width: 100px;
+    height: 100px;
+    color: #000;
+    position: relative;
+    border-radius: 10px;
+}
+counter .box span {
+    font-size: 42px;
+    padding: 21px 0 8px 0;
+    display: block;
+    color: #f24c5b;
+}
+counter .box litter {
+    font-size: 14px;
+    font-weight: bold;
+    color: #616161;
+    text-transform: capitalize;
+}
+
+/* -------------------
+input
+------------------- */
+input#email {
+    width: 285px;
+    height: 55px;
+    background: rgba(255, 255, 255, 0.28);
+    border: 1px solid rgba(255, 255, 255, 0.45);
+    padding: 7px;
+    color: #fff;
+    outline: none !important;
+}
+input#email:focus {
+    background: #fff;
+    color: #797979;
+}
+input#email::-webkit-input-placeholder {
+   color: rgba(255, 255, 255, 0.36);
+}
+input#email:-moz-placeholder { /* Firefox 18- */
+   color: rgba(255, 255, 255, 0.36);
+}
+input#email::-moz-placeholder {  /* Firefox 19+ */
+   color: rgba(255, 255, 255, 0.36);
+}
+input#email:-ms-input-placeholder {
+   color: rgba(255, 255, 255, 0.36);
+}
+input[type="submit"] {
+    height: 55px;
+    border: 1px solid rgba(255, 255, 255, 0.45);
+    background: #f24c4c;
+    color: #fff;
+    width: 103px;
+}
+/* -----------------------------------------------------------
+footer
+----------------------------------------------------------- */
+footer {
+    text-align: center;
+    padding: 143px 0 0 0;
+    background: rgba(0, 255, 0, 0) url(../images/footer.png) no-repeat 0 0;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+footer a {
+    color: #fff;
+}
+footer .social-media a {
+    border: 1px solid #eee;
+    width: 51px;
+    height: 36px;
+    display: inline-block;
+    font-size: 22px;
+    padding: 4px;
+}
+credit {
+    font-size: 15px;
+}
+/* -----------------------------------------------------------
+color page
+----------------------------------------------------------- */
+body.color {
+    background: #6680d4;
+}
+/* -----------------------------------------------------------
+contact page
+----------------------------------------------------------- */
+form.contact {
+    display: block;
+    text-align: center;
+}
+form.contact input , form.contact textarea {
+    min-height: 44px;
+    min-width: 371px;
+    border-radius: 4px;
+    outline: none;
+    border: navajowhite;
+    padding: 10px 15px;
+}
+form.contact label {
+    display: block;
+    margin: 15px;
+}
+form.contact textarea {
+    min-height: 150px;
+    margin-bottom: 15px;
+}
+/* -----------------------------------------------------------
+media
+----------------------------------------------------------- */
+@media only screen and (max-width: 760px) {
+
+    main.main h1 {
+        font-size: 34px;
+    }
+    counter .box {
+        width: 70px;
+        height: 70px;
+    }
+    counter .box span {
+        font-size: 30px;
+        padding: 5px;
+    }
+
+}
+@media only screen and (max-width: 554px) {
+    main.main h1 {
+        font-size: 21px;
+    }
+    logo.logo {
+        top: 15px;
+        right: 0;
+        text-align: center;
+    }
+    ul.mnue {
+        left: 0;
+        text-align: center;
+    }
+    header.header,main.main h1 {
+        padding-bottom: 10px;
+        margin-bottom:0;
+    }
+    main.main h5 {
+        margin: 15px 0;
+    }
+    input#email,input#submit {
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 400px) {
+    counter .box {
+        width: 50px;
+        height: 50px;
+    }
+    counter .box span {
+        font-size: 15px;
+        padding: 5px;
+    }
+    footer .social-media a {
+        width: 33px;
+        height: 25px;
+        padding: 0;
+    }
+    i.fa {
+        font-size: 15px;
+    }
+    credit {
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width: 660px) {
+    form.contact input, form.contact textarea {
+        width: 90%;
+        min-width: 90%;
+    }
+}
+/* @media */
